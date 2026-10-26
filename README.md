@@ -2,6 +2,16 @@
 
 A real multiplayer science-estimation game for 2–8 players. React + TypeScript + Vite, with a Node.js/Express/Socket.IO server. No player accounts or external API keys are required.
 
+## Live game
+
+**Play now: https://signal-showdown.onrender.com**
+
+Deployed on Render’s free web-service plan on October 26, 2026. Two independent WebSocket clients completed three rounds and a rematch against the public URL, with matching server-controlled deadlines and identical scores. Two browser players also verified public joining, answer submission, and score reveal. Phone-width layout was checked at 390 px; physical-phone testing has not been performed by the builder.
+
+[Source repository](https://github.com/TDZ512-bing/signal-showdown) · [Render service dashboard](https://dashboard.render.com/web/srv-dbfoa3ei0phs73d8o8ig)
+
+This deployment uses a public Git repository URL. To publish later code changes, use **Manual Deploy → Deploy latest commit** in the Render dashboard. Avoid redeploying during a match.
+
 ## Play
 
 1. Enter a nickname and create a room.
